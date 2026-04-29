@@ -1,10 +1,41 @@
-import Image from "next/image";
+import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
+import Education from "@/components/sections/Education";
+import Experience from "@/components/sections/Experience";
+import Footer from "@/components/sections/Footer";
+import Hero from "@/components/sections/Hero";
+import Projects from "@/components/sections/Projects";
+import Skills from "@/components/sections/Skills";
+// import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Welcome to PixGen</h1>
+    <div className="bg-[#0f0f17] text-white">
       
+      <main className="max-w-6xl mx-auto px-4">
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="education">
+          <Education />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+        <Footer />
+      </main>
     </div>
   );
 }
