@@ -24,17 +24,7 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden md:flex items-center gap-6 text-sm text-white">
-          <li className="relative group">
-            <Link
-              href="/"
-              className="px-2 py-1 transition-all duration-300 hover:text-gray-300"
-            >
-              Home
-            </Link>
-
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
-          </li>
-
+          
           <li className="relative group">
             <Link
               href={"/about"}
@@ -42,7 +32,7 @@ const Navbar = () => {
             >
               About
             </Link>
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-linear-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <Link
@@ -51,7 +41,7 @@ const Navbar = () => {
             >
               Skills
             </Link>
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-linear-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <Link
@@ -60,7 +50,7 @@ const Navbar = () => {
             >
               Experience
             </Link>
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-linear-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
 
           <li className="relative group">
@@ -70,7 +60,7 @@ const Navbar = () => {
             >
               Projects
             </Link>
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-linear-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
 
           <li className="relative group">
@@ -80,7 +70,7 @@ const Navbar = () => {
             >
               Education
             </Link>
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-linear-to-r from-purple-500 to-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
         </ul>
 

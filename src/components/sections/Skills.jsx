@@ -2,9 +2,9 @@ import React from 'react';
 
 const Skills = () => {
      return (
-          <div>
-               
-          </div>
+       <div>
+         <h2 className="text-3xl font-bold">Sills</h2>
+       </div>
      );
 };
 
