@@ -27,7 +27,7 @@ const Navbar = () => {
           
           <li className="relative group">
             <Link
-              href={"/about"}
+              href={"#about"}
               className="px-2 py-1 transition-all duration-300 hover:text-gray-300"
             >
               About
@@ -36,7 +36,7 @@ const Navbar = () => {
           </li>
           <li className="relative group">
             <Link
-              href={"/skills"}
+              href={"#skills"}
               className="px-2 py-1 transition-all duration-300 hover:text-gray-300"
             >
               Skills
@@ -45,7 +45,7 @@ const Navbar = () => {
           </li>
           <li className="relative group">
             <Link
-              href={"/experience"}
+              href={"#experience"}
               className="px-2 py-1 transition-all duration-300 hover:text-gray-300"
             >
               Experience
@@ -55,7 +55,7 @@ const Navbar = () => {
 
           <li className="relative group">
             <Link
-              href="/projects"
+              href={"#projects"}
               className="px-2 py-1 transition-all duration-300 hover:text-gray-300"
             >
               Projects
@@ -65,7 +65,7 @@ const Navbar = () => {
 
           <li className="relative group">
             <Link
-              href="/education"
+              href={"#education"}
               className="px-2 py-1 transition-all duration-300 hover:text-gray-300"
             >
               Education
@@ -106,33 +106,29 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden bg-[#191924] px-6 pb-4 text-white">
           <ul className="flex flex-col gap-4 text-sm font-bold">
+            
             <li>
-              <Link href="/" onClick={() => setOpen(false)}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/about" onClick={() => setOpen(false)}>
+              <Link href="#about" onClick={() => setOpen(false)}>
                 About
               </Link>
             </li>
             <li>
-              <Link href="/skills" onClick={() => setOpen(false)}>
+              <Link href="#skills" onClick={() => setOpen(false)}>
                 Skills
               </Link>
             </li>
             <li>
-              <Link href="/experience" onClick={() => setOpen(false)}>
+              <Link href="#experience" onClick={() => setOpen(false)}>
                 Experience
               </Link>
             </li>
             <li>
-              <Link href="/projects" onClick={() => setOpen(false)}>
+              <Link href="#projects" onClick={() => setOpen(false)}>
                 Projects
               </Link>
             </li>
             <li>
-              <Link href="/education" onClick={() => setOpen(false)}>
+              <Link href="#education" onClick={() => setOpen(false)}>
                 Education
               </Link>
             </li>
