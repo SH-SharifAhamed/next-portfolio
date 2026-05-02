@@ -8,7 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="border-b bg-[#191924]">
+    <div className="border-b bg-[#191924] fixed top-0 left-0 w-full z-50 shadow">
       <nav className=" flex justify-between items-center px-4 py-3 max-w-6xl mx-auto">
         <div className="flex gap-2 items-center">
           <Link href={"/"} className="flex items-center gap-2">
@@ -24,7 +24,6 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden md:flex items-center gap-6 text-sm text-white">
-          
           <li className="relative group">
             <Link
               href={"#about"}
@@ -106,7 +105,6 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden bg-[#191924] px-6 pb-4 text-white">
           <ul className="flex flex-col gap-4 text-sm font-bold">
-            
             <li>
               <Link href="#about" onClick={() => setOpen(false)}>
                 About

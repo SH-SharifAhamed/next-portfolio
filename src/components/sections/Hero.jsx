@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-evenly gap-8 py-8rem px-4 max-w-7xl mx-auto">
+    <div className="flex flex-col md:flex-row items-center justify-evenly gap-8 py-20 pt- px-4 max-w-6xl mx-auto">
       <div className="flex flex-col gap-4 max-w-7xl text-center md:text-left justify-center md:justify-normal">
         <h1 className="text-3xl md:text-4xl font-black bg-linear-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent pb-4 animate-slide-up group relative overflow-hidden">
           Hi, I am <br />

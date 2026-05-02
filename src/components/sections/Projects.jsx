@@ -77,7 +77,7 @@ export default function ProjectsSection() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,rgba(120,119,198,0.3),transparent),radial-gradient(circle_at_80%_20%,rgba(120,119,198,0.3),transparent),radial-gradient(circle_at_40%_40%,rgba(120,119,198,0.1),transparent)]" />
       </div>
 
-      <div className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-16">
+      <div className="container max-w-6xl mx-auto px-4 md:px-8 lg:px-12 xl:px-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

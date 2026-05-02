@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="relative mt-24 bg-[#000c33] text-white">
+    <footer className="relative bg-[#000c33] text-white">
       <div className=" h-px w-full bg-linear-to-r from-transparent via-gray-300 to-transparent dark:via-white/10" />
 
       {/* Background Layer */}
@@ -16,6 +16,8 @@ const Footer = () => {
         dark:from-purple-500/10 dark:to-blue-500/10 blur-3xl"
       />
 
+      <div className="mt-12 h-px w-full bg-linear-to-r from-transparent via-gray-300 to-transparent dark:via-white/10" />
+
       {/* Content */}
       <div className="max-w-7xl mx-auto px-6 py-16">
         {/* Top Grid */}
@@ -25,66 +27,35 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <Link href={"/"}>
                 <Image
-                  src="/images/logo.png"
+                  src="/hero.jpeg"
                   alt="pixgen."
-                  width={50}
-                  height={50}
+                  width={60}
+                  height={60}
+                  className="rounded-full border-2 border-purple-600 shadow-md shadow-gray-300"
                 />
               </Link>
               <h2 className="text-xl font-semibold tracking-tight text-white dark:text-white">
-                Online Book Platform
+                Sharif Ahamed
               </h2>
             </div>
 
             <p className="text-sm leading-relaxed text-gray-400  max-w-xs">
-              A modern digital library system where users can explore, search,
-              and borrow books seamlessly. Built for performance and security,
-              delivering a smooth and user-friendly reading experience.
+              Full Stack MERN Developer | Building scalable web apps with
+              MongoDB, Express, React & Node.js. Passionate about creating
+              responsive UIs, secure APIs & real-time features. Open for
+              freelance/remote work.
             </p>
           </div>
 
-          {/* Product */}
-          <div>
-            <h3 className="text-lg font-bold text-white dark:text-white mb-4">
-              Product
-            </h3>
-            <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
-              <li>
-                <Link
-                  href="/generate"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Generate
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/all-photos"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Gallery
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/pricing"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Pricing
-                </Link>
-              </li>
-            </ul>
-          </div>
-
           {/* Company */}
-          <div>
+          <div className="font-semibold">
             <h3 className="text-lg font-bold text-white dark:text-white mb-4">
               Company
             </h3>
-            <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+            <ul className="space-y-3 text-sm text-gray-400 dark:text-gray-400">
               <li>
                 <Link
-                  href="/about"
+                  href="#about"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   About
@@ -92,7 +63,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="#contact"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Contact
@@ -100,7 +71,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/terms"
+                  href="terms"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Terms
@@ -112,21 +83,21 @@ const Footer = () => {
           {/* CTA Block */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold text-white dark:text-white">
-              Start creating
+              Contact Us
             </h3>
 
             <p className="text-sm text-gray-400 dark:text-gray-400">
-              Generate your first AI image today.
+              Add your fedback heare.
             </p>
 
             <Link
-              href="/signup"
+              href="#contact"
               className="inline-flex items-center justify-center px-5 py-2.5 rounded-full 
               bg-black text-white dark:bg-white dark:text-black 
               text-sm font-medium transition-all duration-200 
               hover:scale-[1.02] hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-white/10"
             >
-              Get Started
+              Contact Us
             </Link>
           </div>
         </div>
@@ -137,8 +108,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
           <p>
-            © {new Date().getFullYear()} Online Book Platform. All rights
-            reserved.
+            © {new Date().getFullYear()} Sharif Ahamed. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">

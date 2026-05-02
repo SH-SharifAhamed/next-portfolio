@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="bg-[#0f0f17] text-white">
       
-      <main className="max-w-6xl mx-auto px-4">
+      <main className="">
         <section id="home">
           <Hero />
         </section>

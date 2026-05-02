@@ -3,6 +3,10 @@
 @import "@heroui/styles";
 
 
+html {
+     scroll-behavior: smooth;
+}
+
 
 
 @keyframes slide-up {

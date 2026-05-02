@@ -6,7 +6,7 @@ import { ChevronRight, Calendar, MapPin, Users, Code2 } from "lucide-react";
 const experiences = [
   {
     id: 1,
-    company: "TechCorp Innovations",
+    // company: "TechCorp Innovations",
     position: "Lead Frontend Engineer",
     duration: "Jan 2025 - Present (Dhaka)",
     achievements: [
@@ -15,11 +15,11 @@ const experiences = [
       "AI integrated dashboard deploy করেছি",
     ],
     tech: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-    stats: { projects: 12, revenue: "+$500K", team: 8 },
+    stats: { projects: 6, revenue: "+$500K", team: 8 },
   },
   {
     id: 2,
-    company: "Digital Solutions BD",
+    // company: "Digital Solutions BD",
     position: "Fullstack Architect",
     duration: "Jun 2023 - Dec 2024 (Remote)",
     achievements: [
@@ -28,11 +28,11 @@ const experiences = [
       "Zero-downtime deployment pipeline",
     ],
     tech: ["Node.js", "React", "PostgreSQL", "Docker"],
-    stats: { projects: 25, clients: 15, uptime: "99.99%" },
+    stats: { projects: 2, clients: 15, uptime: "99.99%" },
   },
   {
     id: 3,
-    company: "Freelance Pro",
+    // company: "Freelance Pro",
     position: "Elite Developer",
     duration: "2021 - 2023 (Global)",
     achievements: [
@@ -41,7 +41,7 @@ const experiences = [
       "Complex 3D portfolio animations",
     ],
     tech: ["Three.js", "GSAP", "WebGL", "Svelte"],
-    stats: { projects: 45, rating: "5.0", earnings: "₹50L+" },
+    stats: { projects: 5, rating: "5.0", earnings: "₹50L+" },
   },
 ];
 
@@ -88,13 +88,13 @@ export default function ExperiencePro() {
   };
 
   return (
-    <section className="min-h-screen py-32 bg-linear-to-br from-slate-900 via-purple-900/20 to-slate-900 overflow-hidden relative">
+    <section className="min-h-screen  py-32 bg-linear-to-br from-slate-900 via-purple-900/20 to-slate-900 overflow-hidden relative">
       {/* Floating Particles Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,rgba(120,119,198,0.3),transparent),radial-gradient(circle_at_80%_20%,rgba(120,119,198,0.3),transparent),radial-gradient(circle_at_40%_40%,rgba(120,119,198,0.1),transparent)]" />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container max-w-6xl mx-auto px-6 relative z-10">
         <motion.div
           className="text-center mb-24"
           initial={{ opacity: 0, y: -30 }}
@@ -108,10 +108,6 @@ export default function ExperiencePro() {
           <motion.h2 className="text-6xl md:text-7xl font-black bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-6 tracking-tight">
             Professional Journey
           </motion.h2>
-          <motion.p className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Elite engineering এর through transformative impact create করেছি
-            global scale-এ।
-          </motion.p>
         </motion.div>
 
         <motion.div

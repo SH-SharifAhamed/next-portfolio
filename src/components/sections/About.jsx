@@ -32,7 +32,7 @@ const About = () => {
       id="about-section"
       className="py-20 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-hidden"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left: Image */}
           <div className="relative group">
@@ -58,10 +58,10 @@ const About = () => {
             <p
               className={`text-lg sm:text-xl text-slate-300 mb-8 leading-relaxed transition-all duration-1000 delay-200 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
             >
-              Ami Sharif Ahamed, ekjon passionate Full-Stack Developer from
-              Dhaka. Next.js, React ar Tailwind diye modern web apps banai. 3+
-              bochor experience ache scalable projects-e. Client-r sathe kaaj
-              korte bhalo lage ar clean code lekhte valo lage.
+              Full Stack MERN Developer | Building scalable web apps with
+              MongoDB, Express, React & Node.js. Passionate about creating
+              responsive UIs, secure APIs & real-time features. Open for
+              freelance/remote work.
             </p>
             <p
               className={`text-lg sm:text-xl text-slate-300 mb-12 leading-relaxed transition-all duration-1000 delay-400 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}

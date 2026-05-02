@@ -23,7 +23,7 @@ const Skills = () => {
       id="skills"
       className="py-20 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
             Skills & Expertise
