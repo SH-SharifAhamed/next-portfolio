@@ -7,58 +7,65 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    id: '1',
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce app with payment integration and admin dashboard.',
-    image: '/projects/img-2.jpg', // Replace with your image path
-    technologies: ['Next.js', 'Tailwind', 'Stripe', 'Prisma'],
-    liveUrl: 'https://ecommerce-example.com',
-    githubUrl: 'https://github.com/yourusername/ecommerce'
+    id: "1",
+    title: "KeenKeeper",
+    description:
+      "Full-stack e-commerce app with payment integration and admin dashboard.",
+    image: "/projects/img-2.png",
+    technologies: ["Next.js", "Tailwind", "Stripe", "Prisma"],
+    liveUrl: "https://keen-keeper-page.netlify.app/",
+    githubUrl: "https://github.com/SH-SharifAhamed/keen-keeper",
   },
   {
-    id: '2',
-    title: 'Task Management App',
-    description: 'Real-time collaborative task manager built with modern React patterns.',
-    image: '/projects/img-3.jpg',
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-    liveUrl: 'https://taskapp-example.com',
-    githubUrl: 'https://github.com/yourusername/taskapp'
+    id: "2",
+    title: "DigiTools",
+    description:
+      "Real-time collaborative task manager built with modern React patterns.",
+    image: "/projects/img-3.png",
+    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
+    liveUrl: "https://digitool-platrorm.netlify.app/",
+    githubUrl: "https://github.com/SH-SharifAhamed/digitools-platform",
   },
   {
-    id: '3',
-    title: 'AI Chatbot Dashboard',
-    description: 'Analytics dashboard for AI chatbot performance with interactive charts.',
-    image: '/projects/img-4.jpg',
-    technologies: ['Next.js', 'Chart.js', 'Supabase', 'TypeScript'],
-    liveUrl: 'https://chatbot-example.com',
-    githubUrl: 'https://github.com/yourusername/chatbot'
+    id: "3",
+    title: "GitHub-Issues-Tracker",
+    description:
+      "Analytics dashboard for AI chatbot performance with interactive charts.",
+    image: "/projects/img-4.png",
+    technologies: ["Next.js", "Chart.js", "Supabase", "TypeScript"],
+    liveUrl:
+      "https://sh-sharifahamed.github.io/GitHub-Issues-Tracker/home.html",
+    githubUrl: "https://github.com/SH-SharifAhamed/GitHub-Issues-Tracker",
   },
   {
-    id: '4',
-    title: 'Portfolio Website',
-    description: 'This very portfolio site showcasing responsive design and animations.',
-    image: '/projects/img-5.jpg',
-    technologies: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/yourusername/portfolio'
+    id: "4",
+    title: "TechWave",
+    description:
+      "This very portfolio site showcasing responsive design and animations.",
+    image: "/projects/img-5.png",
+    technologies: ["Next.js", "Framer Motion", "Tailwind CSS"],
+    liveUrl: "https://sh-sharifahamed.github.io/B13-A02-TechWave/",
+    githubUrl: "https://github.com/SH-SharifAhamed/B13-A02-TechWave",
   },
   {
-    id: '5',
-    title: 'Weather App',
-    description: 'Real-time weather forecasting app with geolocation and forecasts.',
-    image: '/projects/img-6.jpg',
-    technologies: ['React', 'OpenWeather API', 'Tailwind'],
-    liveUrl: 'https://weather-example.com',
-    githubUrl: 'https://github.com/yourusername/weather'
+    id: "5",
+    title: "Portfolio Website",
+    description:
+      "Real-time weather forecasting app with geolocation and forecasts.",
+    image: "/projects/img-6.png",
+    technologies: ["React", "OpenWeather API", "Tailwind"],
+    // liveUrl: "https://weather-example.com",
+    githubUrl: "https://github.com/SH-SharifAhamed/next-portfolio",
   },
   {
-    id: '6',
-    title: 'Blog Platform',
-    description: 'MDX-powered blog with search, tags, and dark mode support.',
-    image: '/projects/img-7.jpg',
-    technologies: ['Next.js', 'MDX', 'Contentlayer'],
-    liveUrl: 'https://blog-example.com',
-    githubUrl: 'https://github.com/yourusername/blog'
-  }
+    id: "6",
+    title: "online-book-platform",
+    description: "MDX-powered blog with search, tags, and dark mode support.",
+    image: "/projects/img-7.png",
+    technologies: ["Next.js", "MDX", "Contentlayer"],
+    liveUrl: "https://online-book-platform.vercel.app/",
+    githubUrl: "https://github.com/SH-SharifAhamed/online-book-platform",
+  },
 ];
 
 export default function ProjectsSection() {
